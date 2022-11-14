@@ -84,8 +84,8 @@ header img {
 
 main {
     max-width: 580px;
-    width: 90%;
-    margin: 32px auto;
+    width: auto;
+    margin: 5px auto;
     display: grid;
     gap: 24px;
 }
