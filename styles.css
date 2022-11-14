@@ -83,7 +83,9 @@ header img {
 
 
 main {
+    /*
     max-width: 580px;
+    */
     width: auto;
     margin: 5px auto;
     display: grid;
@@ -134,6 +136,7 @@ footer {
     text-align: center;
 }
 
+/*
 @media screen and (max-width: 768px) {
     body {
         text-align: center;
@@ -147,6 +150,8 @@ footer {
         text-align: center;
         width: 100%;
         padding: 0;
-        width: 100%;
+
     }
 }
+
+*/
