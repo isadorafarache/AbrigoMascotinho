@@ -29,14 +29,15 @@ header {
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
+    width: 100%;
+    height: 300px;
 }
 
 
 
 #imagens {
     object-fit: cover;
-    height: 500px;
-    width: 500px;
+  
 }
 
 svg {
@@ -80,7 +81,6 @@ header img {
 
 
 main {
-    border: solid 1px red;
     max-width: 580px;
     width: 100%;
     margin: 5px auto;
@@ -90,7 +90,7 @@ main {
 
 
 .video-abrigo .img-nubia .foto-insta {
-    width: 50%;
+    width: 90%;
 }
 
 li {
@@ -133,7 +133,7 @@ footer {
     text-align: center;
 }
 
-
+/*
 @media screen and (max-width: 768px) {
     main {
         text-align: center;
@@ -148,3 +148,4 @@ footer {
         position: relative;
     }
 }
+*/
