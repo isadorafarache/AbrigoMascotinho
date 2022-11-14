@@ -10,7 +10,7 @@ function carrossel() {
         idx = 0;
     }
 
-    imgs.style.transform = `translateX(${-idx * 500}px)`;
+    imgs.style.transform = `translateX(${-idx * 300}px)`;
 
 }
 
