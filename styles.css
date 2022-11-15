@@ -63,11 +63,12 @@ ul {
     padding: 6px
 }
 
-
+/*
 li:hover {
-    transform: scale(2.0);
-}
+    transform: scale(1.1);
+    }
 
+*/
 
 header img {
     width: 25%;
@@ -81,7 +82,9 @@ main {
     max-width: 580px;
     width: 100%;
     margin: 5px auto;
+    /*
     display: grid;
+    */
     gap: 24px;
 }
 
@@ -94,7 +97,9 @@ main {
 li {
     font-size: 20px;
     padding: auto;
+    /*
     float: left;
+    */
     margin: 5px;
 
 }
@@ -110,7 +115,7 @@ nav a {
     text-decoration: none;
 
 }
-
+/*
 li a::after {
 
     width: 0%;
@@ -125,21 +130,9 @@ li a::after {
 li a:hover::after {
     width: 100%;
 }
-
+*/
 footer {
     padding: 6px;
     text-align: center;
 }
 
-
-@media only screen and (min-width: 768px) {
-    li:hover {
-        transform: none;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    li:hover {
-        transform: none;
-    }
-    }
