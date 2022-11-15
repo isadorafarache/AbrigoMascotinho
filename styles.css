@@ -65,8 +65,9 @@ ul {
 
 
 li:hover {
-    transform: scale(1.1);
+    transform: scale(2.0);
 }
+
 
 header img {
     width: 25%;
@@ -77,7 +78,6 @@ header img {
 
 
 main {
-    border: solid red 2px;
     max-width: 580px;
     width: 100%;
     margin: 5px auto;
@@ -133,20 +133,13 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
-    body {
-        height: auto;
-        width: auto;
-        text-align: center;
+    li:hover {
+        transform: none;
     }
-
 }
 
 @media only screen and (min-width: 600px) {
-    body {
-        height: auto;
-        width: auto;
-        text-align: center;
+    li:hover {
+        transform: none;
     }
-
-
-}
+    }
