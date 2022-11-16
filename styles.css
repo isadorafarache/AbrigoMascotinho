@@ -7,14 +7,20 @@
 body {
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
-    text-align: center;
 }
 
 header {
+    text-align: center;
     background: rgb(46, 45, 44);
     box-shadow: 0px 0px 6px 0px red;
 
 }
+
+header img {
+
+    width: 25%;
+}
+
 
 .carrossel {
     box-shadow: 2px 2px 4px black;
@@ -42,6 +48,7 @@ svg {
 }
 
 p {
+    text-align: justify;
     color: rgb(55, 51, 51);
     font-size: 18px;
     margin: 5px;
@@ -70,18 +77,11 @@ li:hover {
 
 */
 
-header img {
-    width: 25%;
-    padding: 2px;
-    margin: auto;
-    display: flex;
-}
-
-
 main {
     max-width: 580px;
     width: 100%;
     margin: 5px auto;
+
     /*
     display: grid;
     */
@@ -90,8 +90,9 @@ main {
 
 /*
 .video-abrigo .img-nubia .foto-insta {
-    
+    width: 80%;
 }
+
 */
 
 li {
@@ -115,6 +116,7 @@ nav a {
     text-decoration: none;
 
 }
+
 /*
 li a::after {
 
@@ -131,8 +133,7 @@ li a:hover::after {
     width: 100%;
 }
 */
-footer {
+footer p {
     padding: 6px;
     text-align: center;
 }
-
