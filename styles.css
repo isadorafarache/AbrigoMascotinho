@@ -47,7 +47,7 @@ svg {
 }
 
 p {
-   
+   font-size: 18px;
     color: rgb(55, 51, 51);
     margin: 5px;
 }
@@ -78,7 +78,6 @@ li:hover {
 
 main {
     max-width: 580px;
-    width: 100%;
     margin: 5px auto;
     display: grid;
 
@@ -91,7 +90,7 @@ main {
 
 
 li {
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px;
 
 }
