@@ -5,8 +5,8 @@
 }
 
 body {
-    display: grid;
-    gap: 20%;
+  
+    justify-content: space-between;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
 }
