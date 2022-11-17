@@ -8,7 +8,6 @@ body {
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
     text-align: justify;
-    line-height: 160%;
 }
 
 header {
@@ -50,7 +49,6 @@ svg {
 p {
    
     color: rgb(55, 51, 51);
-    font-size: 16px;
     margin: 5px;
 }
 
@@ -80,16 +78,15 @@ li:hover {
 
 main {
     max-width: 580px;
-    width: 90%;
+    width: 100%;
     margin: 5px auto;
     display: grid;
-    gap: 10px;
+
 }
 
 .img-nubia .foto-insta {
     text-align: center;
-    width: 300px;
-    height: 300px;;
+    width: 90%;
 }
 
 
