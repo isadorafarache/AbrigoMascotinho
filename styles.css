@@ -17,7 +17,6 @@ header {
 }
 
 header img {
-
     width: 25%;
 }
 
@@ -70,37 +69,26 @@ ul {
     padding: 6px
 }
 
-/*
 li:hover {
     transform: scale(1.1);
-    }
+}
 
-*/
 
 main {
+    display: flexbox;
     max-width: 580px;
     width: 100%;
     margin: 5px auto;
-
-    /*
-    display: grid;
-    */
-    gap: 24px;
 }
 
-/*
+
 .video-abrigo .img-nubia .foto-insta {
-    width: 80%;
+    width: 70%;
 }
 
-*/
 
 li {
     font-size: 20px;
-    padding: auto;
-    /*
-    float: left;
-    */
     margin: 5px;
 
 }
