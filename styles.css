@@ -5,6 +5,7 @@
 }
 
 body {
+    display: grid;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
 }
@@ -75,12 +76,9 @@ li:hover {
 
 
 main {
-    display: flexbox;
     max-width: 580px;
-    width: 100%;
     margin: 5px auto;
 }
-
 
 .video-abrigo .img-nubia .foto-insta {
     width: 70%;
