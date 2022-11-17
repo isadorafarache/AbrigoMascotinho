@@ -5,6 +5,7 @@
 }
 
 body {
+    justify-content: center;
     display: grid;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
@@ -70,10 +71,13 @@ ul {
     padding: 6px
 }
 
+/*
+
 li:hover {
     transform: scale(1.1);
 }
 
+*/
 
 main {
     max-width: 580px;
