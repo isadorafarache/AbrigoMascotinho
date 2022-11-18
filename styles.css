@@ -5,7 +5,6 @@
 }
 
 body {
-    width: auto;
     margin: auto;
     justify-content: center;
     background: rgba(255, 116, 0, 0.77);
@@ -80,8 +79,8 @@ li:hover {
 */
 
 main {
-    min-width: 300px;
-    max-width: 500px;
+    max-width: 580px;
+    width: auto;
     margin: 5px auto;
     display: grid;
     margin: auto;
