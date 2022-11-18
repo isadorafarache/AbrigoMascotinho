@@ -5,6 +5,9 @@
 }
 
 body {
+    width: auto;
+    margin: auto;
+    justify-content: center;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
 }
@@ -17,7 +20,7 @@ header {
 }
 
 header img {
-    width: 25%;
+    width: 30%;
 }
 
 .carrossel {
@@ -78,7 +81,7 @@ li:hover {
 
 main {
     min-width: 300px;
-    max-width: 800px;
+    max-width: 500px;
     margin: 5px auto;
     display: grid;
     margin: auto;
@@ -97,12 +100,12 @@ li {
 }
 
 .topico {
+    white-space: nowrap;
+    justify-content: center;
     background-color: rgb(248, 103, 19);
     border: 1px solid black;
-    justify-content: center;
     padding: 2px;
     display: flex;
-    justify-content: space-between;
 }
 
 
