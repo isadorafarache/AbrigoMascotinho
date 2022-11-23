@@ -5,14 +5,19 @@
 }
 
 body {
-    width: 110vh;
     justify-content: center;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
 }
 
 header {
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 580px;
+    padding: 4px;
     text-align: center;
+    width: 90%;
+    margin: auto;
     background: rgb(46, 45, 44);
     box-shadow: 0px 0px 6px 0px red;
 
@@ -29,12 +34,18 @@ header img {
 }
 
 .container {
+    width: 300px;
+    height: 300px;
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
 
 }
 
+.img-nubia,
+.foto-insta {
+    width: 90%;
+}
 
 #imagens {
     width: 300px;
@@ -48,8 +59,9 @@ svg {
 }
 
 p {
+    width: 90%;
     text-align: justify;
-   font-size: 18px;
+    font-size: 15px;
     color: rgb(55, 51, 51);
     margin: 5px;
 }
@@ -79,25 +91,34 @@ li:hover {
 */
 
 main {
+    width: 90%;
     max-width: 580px;
     margin: 5px auto;
-    display: grid;
- 
+
+
 
 }
 
 li {
-    font-size: 20px;
-    margin: 3px;
+    width: 90%;
+    font-size: 16px;
+    margin: 1px;
 
 }
 
+h2 {
+    letter-spacing: 1px;
+}
+
 .topico {
+    max-width: 580px;
+    margin: 5px auto;
+    width: 90%;
     white-space: nowrap;
-    justify-content: center;
+    text-align: center;
     background-color: rgb(248, 103, 19);
     border: 1px solid black;
-    padding: 2px;
+
     display: flex;
 }
 
@@ -125,6 +146,7 @@ li a:hover::after {
 }
 */
 footer p {
+    text-align: center;
     padding: 6px;
     text-align: center;
 }
