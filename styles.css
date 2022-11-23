@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: auto;
+    width: 110vh;
     justify-content: center;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
@@ -80,17 +80,11 @@ li:hover {
 
 main {
     max-width: 580px;
-    width: auto;
     margin: 5px auto;
     display: grid;
-    margin: auto;
+ 
 
 }
-
-.img-nubia .foto-insta {
-    width: 100%;
-}
-
 
 li {
     font-size: 20px;
