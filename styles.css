@@ -42,15 +42,12 @@ header img {
 
 }
 
-div {
-    border: solid red;
-}
 
 img {
     
    width: 300px;
    height: auto;
-   border: solid red;
+  
 }
 
 #imagens {
@@ -99,7 +96,7 @@ li:hover {
 main {
     display: grid;
     width: 90%;
-    max-width: 580px;
+    max-width: 500px;
     margin: 5px auto;
 
 }
@@ -111,9 +108,6 @@ li {
 
 }
 
-h2 {
-    letter-spacing: -0.30px;
-}
 
 .topico {
     text-align: center;
