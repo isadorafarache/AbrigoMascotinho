@@ -5,7 +5,6 @@
 }
 
 body {
-    justify-content: center;
     background: rgba(255, 116, 0, 0.77);
     font-family: 'Acme', sans-serif;
 }
@@ -13,7 +12,7 @@ body {
 header {
     background-repeat: no-repeat;
     position: relative;
-    max-width: 500px;
+    max-width: 580px;
     padding: 4px;
     text-align: center;
     width: 90%;
@@ -94,8 +93,9 @@ li:hover {
 */
 
 main {
+    justify-items: auto;
     display: grid;
-    max-width: 500px;
+    max-width: 580px;
     margin: 5px auto;
 
 }
@@ -110,7 +110,7 @@ li {
 
 .topico {
     white-space: nowrap;
-    max-width: 500px;
+    max-width: 580px;
     margin: 5px auto;
     width: 90%;
     background-color: rgb(248, 103, 19);
