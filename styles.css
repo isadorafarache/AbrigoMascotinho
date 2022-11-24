@@ -24,7 +24,6 @@ header {
 }
 
 header img {
-    margin: auto;
     width: 30%;
 }
 
@@ -43,12 +42,12 @@ header img {
 }
 
 img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
 #imagens {
-    width: 300px;
+    width: 400px;
     height: 300px;
     object-fit: cover;
 }
