@@ -42,12 +42,12 @@ header img {
 }
 
 img {
-    width: 300px;
+    width: 30%;
     height: auto;
 }
 
 #imagens {
-    width: 400px;
+    width: 300px;
     height: 300px;
     object-fit: cover;
 }
@@ -58,6 +58,7 @@ svg {
 }
 
 p {
+    width: 90%;
     text-align: justify;
     font-size: 15px;
     color: rgb(55, 51, 51);
