@@ -61,11 +61,13 @@ svg {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
     width: 90%;
     font-size: 15px;
     color: rgb(55, 51, 51);
     margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #imgpix {
@@ -93,7 +95,6 @@ li:hover {
 */
 
 main {
-    justify-items: auto;
     display: grid;
     max-width: 580px;
     margin: 5px auto;
