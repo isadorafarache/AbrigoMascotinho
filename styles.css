@@ -10,17 +10,16 @@ body {
 }
 
 header {
-    background-repeat: no-repeat;
     position: relative;
     max-width: 580px;
     padding: 4px;
     text-align: center;
     width: 90%;
     margin: auto;
-    background: rgb(46, 45, 44);
+    background: rgb(46, 45, 44) no-repeat; /* Defina a cor de fundo e desabilite a repetição */
     box-shadow: 0px 0px 6px 0px red;
-
 }
+
 
 header img {
     width: 30%;
