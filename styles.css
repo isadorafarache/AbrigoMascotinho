@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 /* Reset e base */
+=======
+>>>>>>> 816dfc6e5b6f0f5550bc289e11c7a7563dcc8194
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 
 body {
     font-family: "Space Mono", monospace, sans-serif;
@@ -295,3 +299,146 @@ footer {
     margin-top: 20px;
     margin-top: auto; /* Empurra o rodapé para o fundo da página */
 }
+=======
+body {
+    background: rgba(255, 116, 0, 0.77);
+    font-family: 'Acme', sans-serif;
+}
+
+header {
+    position: relative;
+    max-width: 580px;
+    padding: 4px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background: rgb(46, 45, 44) no-repeat; /* Defina a cor de fundo e desabilite a repetição */
+    box-shadow: 0px 0px 6px 0px red;
+}
+
+
+header img {
+    width: 30%;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+#imagens {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+svg {
+    width: 30px;
+    height: 40px;
+}
+
+p {
+    text-align: center;
+    width: 90%;
+    font-size: 15px;
+    color: rgb(55, 51, 51);
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgpix {
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
+    width: 315px;
+    padding: 6px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.donate {
+    width: 30%;
+    padding: 6px
+}
+
+/*
+
+li:hover {
+    transform: scale(1.1);
+}
+
+*/
+
+main {
+    display: grid;
+    max-width: 580px;
+    margin: 5px auto;
+
+}
+
+li {
+    text-align: center;
+    width: 90%;
+    font-size: 16px;
+
+}
+
+
+.topico {
+    white-space: nowrap;
+    max-width: 580px;
+    margin: 5px auto;
+    width: 90%;
+    background-color: rgb(248, 103, 19);
+    border: 1px solid black;
+    display: flex;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+/*
+li a::after {
+
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+li a:hover::after {
+    width: 100%;
+}
+*/
+footer p {
+    text-align: center;
+    padding: 6px;
+}
+>>>>>>> 816dfc6e5b6f0f5550bc289e11c7a7563dcc8194
