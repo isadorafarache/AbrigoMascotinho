@@ -1,0 +1,297 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Space Mono", monospace, sans-serif;
+    color: #231d1e; /* Preto */
+    background-color: #ff8207; /* Laranja principal claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da viewport */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px 0; /* Ajuste o padding conforme necessário */
+}
+
+/* Logo */
+#logo {
+    width: 200px; /* Ajuste o tamanho do logo conforme necessário */
+    height: auto;
+}
+
+/* Navegação */
+nav {
+    background-color: #231d1e; /* Preto */
+    border-radius: 30px; /* Borda arredondada */
+    padding: 15px; /* Ajuste o padding conforme necessário */
+    margin-top: 30px;
+    max-width: 500px; /* Define a largura máxima da navegação */
+    width: 100%; /* Garante que a navegação ocupe a largura disponível */
+}
+
+/* Menu de Navegação */
+nav ul.topico-nav {
+    list-style: none; /* Remove as bolinhas dos itens da lista */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha abaixo em telas menores */
+}
+
+nav ul.topico-nav li {
+    padding: 5px 10px; /* Adiciona padding interno para afastar os itens das bordas */
+}
+
+nav ul.topico-nav li a {
+    color: #c5c0b8; /* Branco acinzentado */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+    transition: color 0.3s ease; /* Transição suave para a cor ao passar o mouse */
+}
+
+nav ul.topico-nav li a:hover,
+nav ul.topico-nav li a.active {
+    color: #ff8207; /* Laranja principal claro */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Ajusta o padding e o respiro da navegação */
+    nav {
+        padding: 20px; /* Adiciona padding ao redor da navegação */
+        margin-top: 20px;
+        max-width: calc(100% - 40px); /* Define a largura máxima para incluir o padding */
+        box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+    }
+
+    nav ul.topico-nav {
+        flex-direction: column; /* Empilha os itens verticalmente em telas pequenas */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        width: 100%; /* Ajusta a largura da lista para a largura total do elemento pai */
+        box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+    }
+}
+
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff; /* Branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção inicial */
+.section-inicial {
+    text-align: center;
+}
+
+.titulo-caixa {
+    background-color: #fff; /* Branco */
+    padding: 10px;
+    border: 2px solid #d53d0c; /* Marrom avermelhado */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Faz a caixa ajustar-se ao conteúdo */
+    max-width: 90%; /* Ajusta a largura para não ocupar toda a tela */
+
+}
+
+.titulo-caixa h1 {
+    color: #880606; /* Marrom avermelhado */
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+}
+
+.titulo-caixa p {
+    color: #231d1e; /* Preto */
+    font-size: 15px; /* Ajuste o tamanho conforme necessário */
+}
+
+/* Carrossel */
+.carrossel {
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 350px; /* Ajuste conforme necessário */
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    flex: 0 0 100%; /* Ajuste conforme necessário */
+    border: 2px solid #d53d0c; /* Laranja secundário escuro */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Seção de introdução */
+.introducao {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Imagem da Núbia */
+.img-nubia img {
+    width: 100%;
+    max-width: 600px; /* Ajuste o tamanho máximo conforme necessário */
+    height: auto;
+    border: 2px solid #d53d0c; /* Laranja secundário escuro */
+    border-radius: 8px; /* Borda arredondada */
+    display: block;
+    margin: 20px auto; /* Centraliza horizontalmente */
+}
+
+/* Seção de história do abrigo */
+.historia {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Vídeo do abrigo */
+.video-abrigo {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.video-abrigo iframe {
+    width: 100%;
+    max-width: 600px; /* Ajuste o tamanho máximo para combinar com as imagens */
+    border: 2px solid #d53d0c; /* Laranja secundário escuro */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Seção de desafios e custos */
+.desafios {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Imagem dos representantes do abrigo */
+.foto-insta img {
+    width: 100%;
+    max-width: 600px; /* Ajuste o tamanho máximo conforme necessário */
+    height: auto;
+    border: 2px solid #d53d0c; /* Laranja secundário escuro */
+    border-radius: 8px; /* Borda arredondada */
+    display: block;
+    margin: 20px auto; /* Centraliza horizontalmente */
+}
+
+/* Seção de agradecimento */
+.agradecimento {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+}
+
+.doacoes {
+    text-align: center;
+}
+
+.doacoes h1 {
+    margin-bottom: 20px;
+    color: #880606; /* Marrom avermelhado */
+}
+
+.doacoes p {
+    margin-bottom: 10px;
+    color: #231d1e; /* Preto */
+}
+
+.imagens-doacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre as imagens */
+    flex-wrap: wrap; /* Permite que as imagens se movam para a linha abaixo se necessário */
+    margin-bottom: 20px;
+}
+
+.imagens-doacao img {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border: 2px solid #d53d0c; /* Laranja secundário escuro */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+.doacoes a p {
+    color: #ff8207; /* Laranja principal claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.doacoes a p:hover {
+    text-decoration: underline;
+}
+
+.contato h1 {
+    margin-bottom: 30px;
+    color: #880606; /* Marrom avermelhado */
+}
+
+.informacoes-contato {
+    margin-bottom: 30px;
+}
+
+.informacoes-contato p {
+    margin-bottom: 10px;
+    color: #231d1e; /* Preto */
+}
+
+.informacoes-contato a {
+    color: #ff8207; /* Laranja principal claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.informacoes-contato a:hover {
+    text-decoration: underline;
+}
+
+/* Ícones de redes sociais */
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.redes-sociais a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociais a img:hover {
+    transform: scale(1.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #231d1e; /* Preto */
+    color: #c5c0b8; /* Branco acinzentado */
+    margin-top: 20px;
+    margin-top: auto; /* Empurra o rodapé para o fundo da página */
+}
